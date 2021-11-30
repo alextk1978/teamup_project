@@ -25,7 +25,7 @@ public class Status {
     private Long id;
 
     /**
-     * Статус мероприятия: проверенно, закончено, на проверки и т.д.
+     * Статус мероприятия: проверено, закончено, на проверке и т.д.
      */
     @Column(name = "STATUS")
     public String status;
